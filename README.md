@@ -3,11 +3,14 @@ A small script to facilitate the extraction of LoRA models from custom checkpoin
 
 The extractor consists of 3 small scripts and libraries. 
 
-List of scripts:
-1) !Updating and extracting LoRA - to check, update or install the required libraries and extract the LoRA model (data) from the checkpoint.
-2) LoRA extraction only - only for extracting the LoRA model (data) from the checkpoint.
-3) Only updating libraries - only for updating or installing the required libraries.
+## Requirements:
+Python 3.10.6
 
+## List of scripts:
+1) <b>[Batch file]</b> !Updating and extracting LoRA - to check, update or install the required libraries and extract the LoRA model (data) from the checkpoint.
+2) <b>[Batch file]</b> LoRA extraction only - only for extracting the LoRA model (data) from the checkpoint.
+3) <b>[Batch file]</b> Only updating libraries - only for updating or installing the required libraries.
+4) <b>[Python file]</b> Batch conversion - for converting all the checkpoints in a hardcoded folder to LoRA models.
 According to tests, the GPU is practically not involved. For the most part, the entire load is on RAM and CPU.
 
 **FileToOpen** and **FileToSave** are included in the **[Wfile 1.5](https://www.horstmuc.de/w32dial.htm#wfile/)** package. Was used to open a window, select a file and save LoRA model.
